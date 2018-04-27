@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>uber get yandex taxi</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- Main_ -->
+	<div class="main-bg bg">
+		<div class="content main">
+			<h1 class="title main__title">подключение к <span class="main__title_yellow">UBER GET и яндекс такси<br/>с комиссией 0%</span></h1>
+			<a onclick="show('block')">
+				<button class="btn btn__text main__btn">Подключиться</button>
+			</a>
+			<div class="main-list">
+				<div class="main-list__item">
+					<img src="img/mainI1.png" class="main-list__item-icon">
+					<p class="main-list__item-text">Выплата по первому<br/>требованию водителя</p>
+				</div>
+				<div class="main-list__item">
+					<img src="img/mainI2.png" class="main-list__item-icon">
+					<p class="main-list__item-text">Без посещения<br/>учебного центра</p>
+				</div>
+				<div class="main-list__item">
+					<img src="img/mainI3.png" class="main-list__item-icon">
+					<p class="main-list__item-text">Содействие в<br/>получении лицензии</p>
+				</div>
+				<div class="main-list__item">
+					<img src="img/mainI4.png" class="main-list__item-icon">
+					<p class="main-list__item-text">Без комиссий<br/>за переводы<br/>и прочие услуги</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Partners_ -->
+	<div class="bg partners-bg">
+		<div class="content partners">
+			<h2 class="title partners__title">ПАРТНЕРСКАЯ ПРОГРАММА</h2>
+			<p class="partners__text">ПРИГЛАСИ ВОДИТЕЛЯ В НАШ ТАКСОПАРК<br/>И<br/>ЕЖЕМЕСЯЧНО ПОЛУЧАЙ <span class="partners__text_bold">1%</span><br/>ОТ ЕГО ДОХОДА</p>
+		</div>
+	</div>
+<!-- Scheme for work_ -->
+	<div class="bg work-bg">
+		<div class="content work">
+			<h2 class="title work__title">схема работы</h2>
+			<div class="work-list">
+				<div class="work-list__item">
+					<img src="img/workI1.png" class="work-list__item-img">
+					<p class="work-list__item-text">Подключаем Вас на первый месяц с комиссией  0%</p>
+				</div>
+				<div class="work-list__item">
+					<img src="img/workI2.png" class="work-list__item-img">
+					<p class="work-list__item-text">Вы добросовестно закрываете заказы, а мы своевременно производим выплаты</p>
+				</div>
+				<div class="work-list__item">
+					<img src="img/workI3.png" class="work-list__item-img">
+					<p class="work-list__item-text">Если мы друг друга устраиваем, то заключаем договор с комиссией 3,9%</p>
+				</div>
+			</div>
+			<a onclick="show('block')">
+				<button class="btn btn__text work-list__button">Подключиться</button>
+			</a>
+		</div>
+	</div>
+<!-- footer_ -->
+	<footer class="footer_wrap">
+		<div class="content footer">
+			<p class="footer__item">ООО «Этернити»</p>
+			<p class="footer__text">Пользователь отправивший свои персональные данные с помощью формы расположенной на сайте,<br/>дает согласие на их оработку в соотвествии с законом №152-ФЗ "О персональных данных"</p>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+<!-- Modal -->
+<div onclick="show('none')" id="wrap"></div>
+	<div id="window">
+		<span class="remove" onclick="show('none')" aria-hidden="true">X</span>
+		<form class="form" id="form">
+			<h4 class="title form__title">Введите ваше Имя и Телефон</h4>
+			<input type="text" name="name" class="form__input" placeholder=" Имя" required="required"/>
+			<input type="text" name="phone" class="form__input" placeholder=" Телефон" required="required"/>
+			<button class="btn btn__text form__btn" type="submit">Подключиться</button>
+		</form>
+	</div>
+</html>

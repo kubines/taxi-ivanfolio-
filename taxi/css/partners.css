@@ -1,0 +1,28 @@
+.partners-bg {
+	background-image: url('../img/partnersbg.png');
+	background-color: #ffdd2d;
+	background-size: 385px;
+	background-position: calc(100% - 180px) bottom;
+	max-width: 100%;
+	min-height: 630px;
+}
+.partners {
+	padding-left: 30px;
+	padding-top: 162px;
+}
+.partners__title {
+	text-align: left;
+	font-size: 45px;
+	font-weight: 600;
+	color: #000;
+}
+.partners__text {
+	position: relative;
+	top: 48px;
+	line-height: 36px;
+	font-size: 36px;
+	font-weight: 300;
+}
+.partners__text_bold {
+	font-weight: 600;
+}
